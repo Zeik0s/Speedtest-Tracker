@@ -1,8 +1,8 @@
-FROM linuxserver/nginx
-LABEL maintainer=henrywhitaker3@outlook.com
+FROM linuxserver/nginx:arm64v8-latest
+LABEL maintainer=zeik0s@zeik0s.at
 
-ENV arch='x86_64'
-
+ENV arch='aarch64'
+ENV OOKLA_EULA_GDPR='true'
 COPY conf/ /
 
 EXPOSE 80 443
