@@ -86,7 +86,7 @@ Container images are configured using parameters passed at runtime (such as thos
 |     `-e PGID`             |   Optional. Supply a local group ID for volume permissions  |
 |     `-e AUTH`             |   Optional. Set to 'true' to enable authentication for the app |
 |     `-e INFLUXDB_RETENTION`|  Optional. Sets the InfluxDB retention period, defaults to `30d` |
-|     `-e INFLUXDB_HOST_TAG |   Optional. Sets the InfluxDB host tag value, defaults to `speedtest` |
+|     `-e INFLUXDB_HOST_TAG` |   Optional. Sets the InfluxDB host tag value, defaults to `speedtest` |
 
 ### Authentication
 
